@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube_clone:)</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2d323a629b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="main.js" defer></script> -->
+  </head>
+  <body>
+    <!-- 헤더header -->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+    <!--  -->
+
+    <!-- 비디오 Video -->
+    <section class="player">
+      <video controls src="video/video.mp4"></video>
+    </section>
+
+    <!-- videoinfo and nextup -->
+    <div class="infoAndUpNext">
+      <!-- video info -->
+      <section class="info">
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#DreamCoding</li>
+            <li>#challenge</li>
+            <li>#Ellie</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp"
+              >Clone Coding: Youtube Mobile Website 유튜브 모바일 웹사이트 따라
+              만들기 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript
+              드림코딩과 함께하는 프론트엔드 실전 입문편</span
+            >
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">1M views 1 month ago</span>
+        </div>
+        <!-- action Button -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>공유</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>저장</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>기록</span>
+            </button>
+          </li>
+        </ul>
+        <!-- Channel description -->
+        <div class="channel">
+          <div class="metadata">
+            <img src="main_pictures/scott.jpg" alt="profile_image" />
+            <div class="info">
+              <span class="name">드림코딩by엘리</span>
+              <span class="subscribers">1M subscribers</span>
+            </div>
+          </div>
+          <button class="subscribe"></button>
+        </div>
+      </section>
+
+      <!-- upNext -->
+      <section class="upNext">
+        <span class="title">Up Next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="main_pictures/mac.jpg" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >프론트엔드 강의, 프론트엔드 개발자가 되고 싶다면? 웹개발
+                입문자편 강의를 시작합니다 ⭐️ (HTML, CSS, Javascript + 실전
+                프로젝트)</span
+              >
+              <span class="name">드림코딩 by 엘리</span>
+              <span class="views">82K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img src="main_pictures/america.jpg" alt="" />
+            </div>
+            <div class="itemInfo">
+              <span class="title">
+                미 의회 충격적!! 100년 만에 일어난 좌우 공통 선언! 중국
+                무너진다!
+              </span>
+              <span class="name">성제준TV</span>
+              <span class="views">112M</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img src="main_pictures/car.png" alt="I bought A car." />
+            </div>
+            <div class="itemInfo">
+              <span class="title">
+                세계에서 가장 비싼 차 Top10...이럴수가
+              </span>
+              <span class="name">승준이집엔말이야</span>
+              <span class="views">1 Billion</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
